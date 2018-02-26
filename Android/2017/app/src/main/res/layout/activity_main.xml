@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#45a34d">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Category"
+        android:textSize="35dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#e5e7f2"
+        android:background="#f8660611"
+        android:textAlignment="center"/>
+
+
+    <Button
+        android:id="@+id/facul"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Faculty"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="30dp"
+        android:background="#a32e80"
+        android:textColor="#ffffff"/>
+    <Button
+        android:id="@+id/depart"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="department"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="30dp"
+        android:background="#a32e80"
+        android:textColor="#ffffff"/>
+
+
+</LinearLayout>

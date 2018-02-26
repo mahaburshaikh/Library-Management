@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#45a34d">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Your Faculty"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            android:background="#9673dc"
+            android:layout_marginTop="10dp"
+            />
+
+    <Button
+        android:id="@+id/cse"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="CSE"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="25dp"
+        android:background="#832222"
+        android:textColor="#ffffff"/>
+    <Button
+        android:id="@+id/bba"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="BBA"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="25dp"
+        android:background="#832222"
+        android:textColor="#ffffff"/>
+    <Button
+        android:id="@+id/ag"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Agriculture"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="25dp"
+        android:background="#832222"
+        android:textColor="#ffffff"/>
+    <Button
+        android:id="@+id/fish"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Fishries"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="25dp"
+        android:background="#832222"
+        android:textColor="#ffffff" />
+    <Button
+        android:id="@+id/dm"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Disaster MANAGEMT"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="25dp"
+        android:background="#832222"
+        android:textColor="#ffffff" />
+    <Button
+        android:id="@+id/nfs"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="NUTURATION and FOOD SCIENCE"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="25dp"
+        android:background="#832222"
+        android:textColor="#ffffff"/>
+    <Button
+        android:id="@+id/land"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Land Management"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="25dp"
+        android:background="#832222"
+        android:textColor="#ffffff"/>
+    </LinearLayout>
+
+</ScrollView>

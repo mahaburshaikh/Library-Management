@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+<EditText
+        android:id="@+id/st_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Full Name"/>
+    <EditText
+        android:id="@+id/st_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:hint="Enter Id"/>
+    <EditText
+        android:id="@+id/st_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:hint="Enter RegId "/>
+    <EditText
+        android:id="@+id/st_fac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:hint="Enter Faculty "/>
+    <EditText
+        android:id="@+id/st_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:hint="Enter Address "/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_marginTop="1dp"
+        android:hint="Enter Username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_marginTop="1dp"
+        android:hint="Enter Password"
+        />
+
+        <!--<Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="choose photo"
+            android:id="@+id/photoselect"
+            android:background="@color/colorAccent"
+            android:textSize="15dp"
+            />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="270dp"
+            android:id="@+id/imageview"
+            android:src="@drawable/game"
+            />-->
+
+    <Button
+        android:id="@+id/submit_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:padding="10dp"
+        android:background="#1b5e20"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginTop="3dp"/>
+
+
+</LinearLayout>
+    </ScrollView>

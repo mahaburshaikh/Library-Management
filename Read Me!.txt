@@ -1,0 +1,33 @@
+Project name : Android-Web based library management.
+Tools:
+      1.Android Studio
+      2.Netbeans
+      3.Xampp
+      4.Notepadd++
+Platform:
+      1.HTML
+      2.CSS
+      3.php
+      4.JavaScript
+Features:
+      1.Student Membership Registration.
+      2.Student Library ID card.
+      3.Student Can View All Books From Library.
+      4.Student Can Choose Books as DepartmentWise.
+      5.Student Can Choose Books as FacultyWise	.
+      6.Libraian Can Easily Add Books in the library website.
+      7.Libraian Control All works in Website And Student Use Mobile app.
+
+How can the project will run if anyone want to run :
+.......................................................
+      1.At first student open the android project(2017) in android studio.
+      2.Student must install the Xampp/Wampp Software.
+      3.Student should import my database file(library) in the Xampp.
+      3.Then student put the web project(management) in Local disk:c/Xampp/htdocs.
+      4.If the stuent want to run the web project,he must write in Google Chrome/Mozila Firefox/Uc Browser "Localhost/management/index.php"
+      5.Afetr running web projrct,he should connect the laptop with internet.
+      6.Then he check his laptop ip address from Command Prompt by writing(ipconfig).
+      7.Then He exchange this ip address with the ip address which is given in my All Activity of Android Project.
+      8.After this he should run the android project in emulator.
+
+Try it.....................................................................  
